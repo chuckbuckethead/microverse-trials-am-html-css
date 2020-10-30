@@ -48,3 +48,9 @@ header {
   justify-content: center;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  #header-img {
+    max-width: 30vw;
+  }
+}
